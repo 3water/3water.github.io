@@ -1,0 +1,278 @@
+
+
+<!DOCTYPE html>
+<html lang="null">
+<head prefix="og: http://ogp.me/ns#">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <meta name="description" content="记不住的就不是你的">
+    <title>Realm Android平台简单使用 | 3water</title>
+
+    <!-- Open Graph -->
+    <meta name="description" content="Realm&amp;#x5B9A;&amp;#x4E49;&amp;#x4E00;&amp;#x79CD;&amp;#x9762;&amp;#x5411;&amp;#x79FB;&amp;#x52A8;&amp;#x7AEF;&amp;#x7684;&amp;#x65B0;&amp;#x578B;&amp;#x7684;ORM&amp;#xFF08;Object Relation Mapping&amp;#xFF09;&amp;#x8F7B;&amp;#x91CF;&amp;#x6570;&amp;#x636E;&amp;#x5E93;&amp;#xFF0C;&amp;">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Realm Android平台简单使用">
+<meta property="og:url" content="http://yoursite.com/2017/03/07/Realm Android平台简单使用/index.html">
+<meta property="og:site_name" content="3water">
+<meta property="og:description" content="Realm&amp;#x5B9A;&amp;#x4E49;&amp;#x4E00;&amp;#x79CD;&amp;#x9762;&amp;#x5411;&amp;#x79FB;&amp;#x52A8;&amp;#x7AEF;&amp;#x7684;&amp;#x65B0;&amp;#x578B;&amp;#x7684;ORM&amp;#xFF08;Object Relation Mapping&amp;#xFF09;&amp;#x8F7B;&amp;#x91CF;&amp;#x6570;&amp;#x636E;&amp;#x5E93;&amp;#xFF0C;&amp;">
+<meta property="og:image" content="http://yoursite.com/2017/03/07/Realm Android平台简单使用/realm_db.png">
+<meta property="og:image" content="http://yoursite.com/2017/03/07/Realm Android平台简单使用/realm_run_result.png">
+<meta property="og:updated_time" content="2017-03-07T07:38:47.162Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Realm Android平台简单使用">
+<meta name="twitter:description" content="Realm&amp;#x5B9A;&amp;#x4E49;&amp;#x4E00;&amp;#x79CD;&amp;#x9762;&amp;#x5411;&amp;#x79FB;&amp;#x52A8;&amp;#x7AEF;&amp;#x7684;&amp;#x65B0;&amp;#x578B;&amp;#x7684;ORM&amp;#xFF08;Object Relation Mapping&amp;#xFF09;&amp;#x8F7B;&amp;#x91CF;&amp;#x6570;&amp;#x636E;&amp;#x5E93;&amp;#xFF0C;&amp;">
+<meta name="twitter:image" content="http://yoursite.com/2017/03/07/Realm Android平台简单使用/realm_db.png">
+
+    <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Person",
+  "email": "mailto:undefined",
+  "image": "undefined",
+  "name": "3water",
+  "url": "http://yoursite.com"
+}
+</script>
+    <script>
+    var algoliaEnabled = false;
+    
+</script>
+
+    
+
+    
+    
+        <link href="//fonts.useso.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+    
+    
+    
+        <!-- stylesheets list from config.yml -->
+        
+        <link rel="stylesheet" href="/css/aloha.css">
+        
+        <link rel="stylesheet" href="//cdn.bootcss.com/semantic-ui/2.2.4/semantic.min.css">
+        
+        <link rel="stylesheet" href="//cdn.bootcss.com/magnific-popup.js/1.1.0/magnific-popup.min.css">
+        
+    
+
+</head>
+<body id="body" style="margin-bottom: 0;" class="pushable">
+
+    <div class="ui top fixed menu">
+        <a class="item" id="menu-icon"><i class="sidebar icon"></i></a>
+    </div>
+
+    <div id="menu-sidebar" class="ui left vertical sidebar menu">
+
+    <div id="sidebar-top">
+        <div class="content">
+            <h3>3water</h3>
+        </div>
+    </div>
+    <div class="ui container sidebar-card">
+    <div class="ui people shape content">
+        <div class="active side">
+            <div class="ui card">
+                <div class="image">
+                    <img class="ui medium bordered image" src="/images/avatar.jpg">
+                </div>
+                <div class="content">
+                    <a class="header">3water</a>
+                    
+                </div>
+                <div class="extra content">
+                    <div class="ui list">
+                        
+                        
+                    </div>
+
+                </div>
+                <div class="extra content">
+                    <div class="ui list">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+    
+    
+
+    
+
+    
+    <a href="/index.html" class="item" >
+        <i class="home icon"></i>
+        HOME
+    </a>
+
+    
+
+    
+</div>
+
+    <div class="pusher body-content">
+        <div id="content" class="ui main container">
+            <!--<div class="ui one column grid">-->
+                <!--<div class="column">-->
+                    <!--<div class="ui main container">-->
+                        <div id="post-Realm Android平台简单使用" class="ui main container article-type-post">
+
+    
+
+    <div class="ui divided grid">
+
+        <div class="two column row" id="article-content">
+
+            <div class="thirteen wide computer thirteen wide tablet sixteen wide mobile column">
+                
+
+<h1 class="ui header">
+    
+    Realm Android平台简单使用
+</h1>
+
+
+
+                <div class="article-inner">
+
+                    <div class="article-entry" itemprop="articleBody">
+                        
+                        <h2 id="Realm&#x5B9A;&#x4E49;"><a href="#Realm&#x5B9A;&#x4E49;" class="headerlink" title="Realm&#x5B9A;&#x4E49;"></a>Realm&#x5B9A;&#x4E49;</h2><p>&#x4E00;&#x79CD;&#x9762;&#x5411;&#x79FB;&#x52A8;&#x7AEF;&#x7684;&#x65B0;&#x578B;&#x7684;ORM&#xFF08;Object Relation Mapping&#xFF09;&#x8F7B;&#x91CF;&#x6570;&#x636E;&#x5E93;&#xFF0C;&#x6027;&#x80FD;&#x4F18;&#x4E8E;SQlite&#x6570;&#x636E;&#x5E93;&#x3002;&#x73B0;&#x5728;&#x5F88;&#x591A;&#x4E3B;&#x6D41;&#x7684;&#x6570;&#x636E;&#x5E93;&#x6846;&#x67B6;&#x90FD;&#x4F7F;&#x7528;&#x4E86;ORM&#x7684;&#x8BBE;&#x8BA1;&#x65B9;&#x5F0F;&#xFF0C;&#x6BD4;&#x5982;greenDAO&#xFF0C;LiteOrm&#x7B49;&#x7B49;&#x3002;<br>&#x5B98;&#x7F51;&#xFF1A;<a href="https://realm.io" target="_blank" rel="external">https://realm.io</a></p>
+<h2 id="&#x5F15;&#x5165;"><a href="#&#x5F15;&#x5165;" class="headerlink" title="&#x5F15;&#x5165;"></a>&#x5F15;&#x5165;</h2><ul class="ui list">
+<li><p>&#x9879;&#x76EE;&#x7684;build.gradle</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"> buildscript {</div><div class="line">    repositories {</div><div class="line">        jcenter()</div><div class="line">    }</div><div class="line">    dependencies {</div><div class="line">        classpath &apos;com.android.tools.build:gradle:2.2.1&apos;</div><div class="line">        //&#x6DFB;&#x52A0;Realm &#x63D2;&#x4EF6;</div><div class="line">        classpath &quot;io.realm:realm-gradle-plugin:2.2.2&quot;</div><div class="line">    }</div><div class="line">}</div></pre></td></tr></table></figure>
+</li>
+<li><p>App&#x7684;build.gradle</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">apply plugin: &apos;realm-android&apos;</div></pre></td></tr></table></figure>
+</li>
+<li><p>&#x7EE7;&#x627F;Application&#xFF0C;&#x521D;&#x59CB;&#x5316;Realm</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">public class MyApplication extends Application {</div><div class="line">    @Override</div><div class="line">    public void onCreate() {</div><div class="line">        super.onCreate();</div><div class="line">        // &#x521D;&#x59CB;&#x5316;Realm</div><div class="line">        Realm.init(this);</div><div class="line">    }</div><div class="line">}</div></pre></td></tr></table></figure>
+</li>
+<li><p>&#x6E05;&#x5355;&#x6587;&#x4EF6;AndroidManifest.xml&#x6307;&#x5B9A;Application</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">&lt;application</div><div class="line">        android:name=&quot;.MyApplication&quot;</div><div class="line">        android:allowBackup=&quot;true&quot;</div><div class="line">        android:icon=&quot;@mipmap/ic_launcher&quot;</div><div class="line">        android:label=&quot;@string/app_name&quot;</div><div class="line">        android:supportsRtl=&quot;true&quot;</div><div class="line">        android:theme=&quot;@style/AppTheme&quot;&gt;</div><div class="line">        &lt;activity</div><div class="line">           android:name=&quot;.FullscreenActivity&quot;</div><div class="line">        &lt;/activity&gt;</div><div class="line">    &lt;/application&gt;</div></pre></td></tr></table></figure>
+</li>
+<li><p>&#x6700;&#x540E;&#x4E00;&#x6B65;<br>&#x5C31;&#x662F;&#x8BF4;&#x4E00;&#x53E5;&#x5E9F;&#x8BDD;&#xFF1A;&#x5927;&#x529F;&#x544A;&#x6210;&#xFF0C;&#x5F00;&#x59CB;&#x6109;&#x5FEB;&#x7684;&#x4F7F;&#x7528;&#x5427;&#x3002;</p>
+<h2 id="&#x5EFA;&#x6A21;"><a href="#&#x5EFA;&#x6A21;" class="headerlink" title="&#x5EFA;&#x6A21;"></a>&#x5EFA;&#x6A21;</h2><p>&#x6211;&#x89C9;&#x5F97;&#x5B98;&#x7F51;&#x4E0A;&#x7684;&#x6A21;&#x578B;&#x5C31;&#x5F88;&#x4E0D;&#x9519;&#xFF08;&#x5176;&#x5B9E;&#x5C31;&#x662F;&#x6211;&#x61D2;&#xFF09;&#xFF0C;&#x76F4;&#x63A5;&#x7528;&#x4E86;&#xFF01;<br>&#x590D;&#x5236;&#x4EE3;&#x7801;&#xFF1A;</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">public class Person extends RealmObject {</div><div class="line">    private String name;</div><div class="line">    private int age;</div><div class="line">    private Dog dog;</div><div class="line">    private RealmList&lt;Cat&gt; cats;</div><div class="line">    @Ignore</div><div class="line">    private int tempReference;</div><div class="line">    private long id;</div><div class="line">}</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>Dog&#x548C;Cat&#x5C31;&#x53EA;&#x6709;&#x4E00;&#x4E2A;&#x5C5E;&#x6027;name&#x3002;</p>
+<h2 id="&#x5982;&#x4F55;&#x5728;window&#x4E0A;&#x67E5;&#x770B;Realm&#x6570;&#x636E;&#x5E93;"><a href="#&#x5982;&#x4F55;&#x5728;window&#x4E0A;&#x67E5;&#x770B;Realm&#x6570;&#x636E;&#x5E93;" class="headerlink" title="&#x5982;&#x4F55;&#x5728;window&#x4E0A;&#x67E5;&#x770B;Realm&#x6570;&#x636E;&#x5E93;"></a>&#x5982;&#x4F55;&#x5728;window&#x4E0A;&#x67E5;&#x770B;Realm&#x6570;&#x636E;&#x5E93;</h2><p>&#x5728;&#x5F00;&#x59CB;&#x6570;&#x636E;&#x5E93;&#x64CD;&#x4F5C;&#x4E4B;&#x524D;&#xFF0C;&#x76F4;&#x89C2;&#x7684;&#x67E5;&#x770B;&#x6570;&#x636E;&#x5E93;&#x7684;&#x72B6;&#x6001;&#xFF0C;&#x6570;&#x636E;&#x7ED3;&#x6784;&#x81F3;&#x5173;&#x91CD;&#x8981;&#x3002;Mac&#x4E0A;Realm&#x63D0;&#x4F9B;&#x4E86;&#x4E13;&#x7528;&#x7684;&#x8F6F;&#x4EF6;&#xFF0C;Window&#x4E0A;&#x5C31;&#x5F97;&#x501F;&#x7528;&#x5F3A;&#x5927;&#x7684;Chrome&#x6D4F;&#x89C8;&#x5668;&#x3002;&#x5F15;&#x5165;Stetho&#x3002;</p>
+<ul class="ui list">
+<li><p>App&#x7684;build.gradle</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">dependencies {</div><div class="line">    compile fileTree(dir: &apos;libs&apos;, include: [&apos;*.jar&apos;])</div><div class="line">    compile &apos;com.facebook.stetho:stetho:1.4.1&apos; //&#x6DFB;&#x52A0;&#x8FD9;&#x4E24;&#x884C;</div><div class="line">    compile &apos;com.uphyca:stetho_realm:2.0.0&apos;</div><div class="line">}</div></pre></td></tr></table></figure>
+</li>
+<li><p>&#x521D;&#x59CB;&#x5316;</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">public class MyApplication extends Application {</div><div class="line">    @Override</div><div class="line">    public void onCreate() {</div><div class="line">        super.onCreate();</div><div class="line">        Realm.init(this);</div><div class="line">        Stetho.initialize(//Stetho&#x521D;&#x59CB;&#x5316;</div><div class="line">                Stetho.newInitializerBuilder(this)</div><div class="line">                        .enableDumpapp(Stetho.defaultDumperPluginsProvider(this))</div><div class="line">                        .enableWebKitInspector(RealmInspectorModulesProvider.builder(this).build())</div><div class="line">                        .build()</div><div class="line">        );</div><div class="line">    }</div><div class="line">}</div></pre></td></tr></table></figure>
+</li>
+<li><p>Chorme&#x67E5;&#x770B;&#x6570;&#x636E;&#x5E93;<br>&#x91CD;&#x65B0;run&#x7A0B;&#x5E8F;<br>&#x6D4F;&#x89C8;&#x5668;&#x5730;&#x5740;&#x680F;&#x8F93;&#x5165;&#xFF1A;chrome://inspect/#devices<br>&#x627E;&#x5230;&#x690D;&#x5165;Stetho&#x7684;&#x7A0B;&#x5E8F;&#x5305;&#x540D;&#xFF0C;&#x70B9;&#x51FB;inspect&#xFF0C;&#x8FDB;&#x5165;&#x5373;&#x53EF;&#x3002;<br>&#x5F53;&#x7136;&#x65E0;&#x56FE;&#x8A00;&#x5C4C;&#xFF01;&#x4E0B;&#x9762;&#x653E;&#x56FE;&#xFF1A;<br><a class="magnific-img" href="/2017/03/07/Realm Android&#x5E73;&#x53F0;&#x7B80;&#x5355;&#x4F7F;&#x7528;/realm_db.png"><img src="/2017/03/07/Realm Android&#x5E73;&#x53F0;&#x7B80;&#x5355;&#x4F7F;&#x7528;/realm_db.png" alt="logo" class="ui centered image"></a></p>
+</li>
+</ul>
+<h2 id="&#x4F7F;&#x7528;Realm&#x8FDB;&#x884C;&#x6570;&#x636E;&#x5E93;&#x64CD;&#x4F5C;"><a href="#&#x4F7F;&#x7528;Realm&#x8FDB;&#x884C;&#x6570;&#x636E;&#x5E93;&#x64CD;&#x4F5C;" class="headerlink" title="&#x4F7F;&#x7528;Realm&#x8FDB;&#x884C;&#x6570;&#x636E;&#x5E93;&#x64CD;&#x4F5C;"></a>&#x4F7F;&#x7528;Realm&#x8FDB;&#x884C;&#x6570;&#x636E;&#x5E93;&#x64CD;&#x4F5C;</h2><p>&#x4EE3;&#x7801;&#x76F8;&#x5BF9;&#x7B80;&#x5355;&#xFF0C;&#x5927;&#x5BB6;&#x90FD;&#x662F;&#x806A;&#x660E;&#x4EBA;&#x3002;<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div><div class="line">83</div><div class="line">84</div><div class="line">85</div><div class="line">86</div><div class="line">87</div><div class="line">88</div><div class="line">89</div><div class="line">90</div><div class="line">91</div><div class="line">92</div><div class="line">93</div><div class="line">94</div><div class="line">95</div><div class="line">96</div><div class="line">97</div><div class="line">98</div><div class="line">99</div><div class="line">100</div></pre></td><td class="code"><pre><div class="line">public class FullscreenActivity extends AppCompatActivity {</div><div class="line">    public static final String TAG = FullscreenActivity.class.getName();</div><div class="line">    private LinearLayout rootLayout = null;</div><div class="line">    private Realm realm;</div><div class="line"></div><div class="line">    @Override</div><div class="line">    protected void onCreate(Bundle savedInstanceState) {</div><div class="line">        super.onCreate(savedInstanceState);</div><div class="line">        setContentView(R.layout.activity_fullscreen);</div><div class="line">        rootLayout = (LinearLayout) findViewById(R.id.activity_full_screen_container);</div><div class="line">        rootLayout.removeAllViews();</div><div class="line">        realm = Realm.getDefaultInstance();</div><div class="line"></div><div class="line"></div><div class="line">        //&#x6DFB;&#x52A0;</div><div class="line">        realm.executeTransaction(new Realm.Transaction() {</div><div class="line">            @Override</div><div class="line">            public void execute(Realm realm) {</div><div class="line">                for (int i = 0; i &lt; 10; i++) {</div><div class="line">                    Person person = realm.createObject(Person.class);</div><div class="line">                    person.setId(i);</div><div class="line">                    person.setName(&quot;Person no. &quot; + i);</div><div class="line">                    person.setAge(i);</div><div class="line">                    Dog fido = realm.createObject(Dog.class);</div><div class="line">                    fido.name = &quot;Fido_&quot; + i;</div><div class="line">                    person.setDog(fido);</div><div class="line">                    person.setTempReference(42);</div><div class="line">                    Cat cat = realm.createObject(Cat.class);</div><div class="line">                    cat.name = &quot;Cat_&quot; + i;</div><div class="line">                    person.getCats().add(cat);</div><div class="line">                }</div><div class="line">            }</div><div class="line">        });</div><div class="line"></div><div class="line">        //&#x67E5;&#x8BE2;</div><div class="line">        final Person person = realm.where(Person.class).findFirst();</div><div class="line">        showStatus(&quot;&#x7B2C;&#x4E00;&#x4E2A;&#x4EBA;&#xFF1A;&quot; + person.getName());</div><div class="line"></div><div class="line">        //&#x66F4;&#x65B0;&#x59D3;&#x540D;</div><div class="line">        realm.executeTransaction(new Realm.Transaction() {</div><div class="line">            @Override</div><div class="line">            public void execute(Realm realm) {</div><div class="line">                person.setName(&quot;Senior Person&quot;);</div><div class="line">            }</div><div class="line">        });</div><div class="line">        showStatus(&quot;&#x66F4;&#x65B0;&#x540E;&#x7B2C;&#x4E00;&#x4E2A;&#x4EBA;&#x59D3;&#x540D;&#xFF1A;&quot; + person.getName());</div><div class="line"></div><div class="line">        //&#x6761;&#x4EF6;&#x67E5;&#x8BE2;</div><div class="line">        RealmResults&lt;Person&gt; results = realm.where(Person.class).equalTo(&quot;age&quot;, 12).findAll();</div><div class="line">        if (results.size() &gt; 0)</div><div class="line">            showStatus(&quot;age==12&#x7684;person&#x59D3;&#x540D;&#xFF1A;&quot; + results.get(0).getName());</div><div class="line"></div><div class="line"></div><div class="line">        //&#x94FE;&#x63A5;&#x67E5;&#x8BE2;</div><div class="line">        RealmResults&lt;Person&gt; LinkDogResults = realm.where(Person.class).equalTo(&quot;dog.name&quot;, &quot;Fido_3&quot;).findAll();</div><div class="line">        if (LinkDogResults.size() &gt; 0)</div><div class="line">            showStatus(&quot;&#x62E5;&#x6709;&#x72D7;&#x547D;&#x4E3A;Fido_3&#x7684;&#x4EBA;&#x59D3;&#x540D;&#xFF1A;&quot; + LinkDogResults.get(0).getName());</div><div class="line">        RealmResults&lt;Person&gt; linkCatResults = realm.where(Person.class).equalTo(&quot;cats.name&quot;, &quot;Cat_2&quot;).findAll();</div><div class="line">        if (linkCatResults.size() &gt; 0)</div><div class="line">            showStatus(&quot;&#x62E5;&#x6709;&#x732B;&#x540D;&#x4E3A;Cat_2&#x7684;&#x4EBA;&#x59D3;&#x540D;&#xFF1A;&quot; + linkCatResults.get(0).getName());</div><div class="line"></div><div class="line">        //&#x5012;&#x5E8F;&#x6392;&#x5E8F;</div><div class="line">        RealmResults&lt;Person&gt; sortedPersons = realm.where(Person.class).findAllSorted(&quot;age&quot;, Sort.DESCENDING);</div><div class="line">        if (sortedPersons.size() &gt; 0)</div><div class="line">            showStatus(&quot;&#x5012;&#x5E8F;&#x6392;&#x5E8F;&#x540E;&#x7B2C;&#x4E00;&#x4EBA;&#x59D3;&#x540D;&#xFF1A;&quot; + sortedPersons.get(0).getName());</div><div class="line"></div><div class="line">        //&#x8303;&#x56F4;&#x67E5;&#x8BE2;&#x4EE5;&#x53CA;&#x8D77;&#x59CB;&#x5B57;&#x7B26;&#x5339;&#x914D;&#x67E5;&#x8BE2;</div><div class="line">        RealmResults&lt;Person&gt; complexResults = realm.where(Person.class)</div><div class="line">                .between(&quot;age&quot;, 7, 9)       // Notice implicit &quot;and&quot; operation</div><div class="line">                .beginsWith(&quot;name&quot;, &quot;Person&quot;).findAll();</div><div class="line">        if (complexResults.size() &gt; 0) {</div><div class="line">            String status = &quot;&quot;;</div><div class="line">            for (Person p : complexResults) {</div><div class="line">                status += &quot;\n&quot; + p.getName();</div><div class="line">            }</div><div class="line">            showStatus(&quot;&#x6DF7;&#x5408;&#x67E5;&#x8BE2;&#x540E;&#x4EBA;&#x59D3;&#x540D;&#xFF1A;&quot; + status);</div><div class="line">        }</div><div class="line">    }</div><div class="line"></div><div class="line">    @Override</div><div class="line">    protected void onDestroy() {</div><div class="line">        super.onDestroy();</div><div class="line">        //&#x5220;&#x9664;&#x6240;&#x6709;</div><div class="line">        realm.executeTransaction(new Realm.Transaction() {</div><div class="line">            @Override</div><div class="line">            public void execute(Realm realm) {</div><div class="line">                realm.delete(Person.class);</div><div class="line">                realm.delete(Dog.class);</div><div class="line">                realm.delete(Cat.class);</div><div class="line">            }</div><div class="line">        });</div><div class="line">        realm.close();</div><div class="line">    }</div><div class="line"></div><div class="line">    private void showStatus(String txt) {</div><div class="line">        Log.i(TAG, txt);</div><div class="line">        TextView tv = new TextView(this);</div><div class="line">        tv.setText(txt);</div><div class="line">        rootLayout.addView(tv);</div><div class="line">    }</div></pre></td></tr></table></figure></p>
+<p>&#x8FD0;&#x884C;&#x7ED3;&#x679C;<br><a class="magnific-img" href="/2017/03/07/Realm Android&#x5E73;&#x53F0;&#x7B80;&#x5355;&#x4F7F;&#x7528;/realm_run_result.png"><img src="/2017/03/07/Realm Android&#x5E73;&#x53F0;&#x7B80;&#x5355;&#x4F7F;&#x7528;/realm_run_result.png" alt="logo" class="ui centered image"></a></p>
+
+                        
+                    </div>
+
+                    
+                    
+                    
+
+                    <div class="description post-description">
+    <span class="post-description-item">
+        <time datetime="2017-03-07T06:56:06.153Z" itemprop="datePublished">2017-03-07</time>
+
+    </span>
+    <span class="post-description-item">
+        
+    </span>
+</div>
+
+                </div>
+                
+                <div id="pagination" class="nav-web ui text container pagination">
+
+    <div class="ui stackable two column divided grid container">
+        <div class="row">
+            <div class="column nav-left">
+                
+
+                <a class="ui tiny button disabled"><i class="angle left icon"></i>Previous</a>
+
+                
+            </div>
+            <div class="column nav-right">
+                
+
+                <a href="/2017/03/07/Android数据库框架GreenDao/" class="ui tiny button">
+                    
+                    Android数据库框架GreenDao
+                    
+                    <i class="angle right icon"></i></a>
+                
+            </div>
+        </div>
+    </div>
+
+</div>
+                
+            </div>
+
+            
+            <div class="three wide computer three wide tablet column">
+
+                <div class="ui sticky article-toc" id="article-toc">
+                    <!-- toc -->
+                    <ol class="ui ordered list"><li><a href="#Realm定义"><span>Realm定义</span></a></li><li><a href="#引入"><span>引入</span></a></li><li><a href="#建模"><span>建模</span></a></li><li><a href="#如何在window上查看Realm数据库"><span>如何在window上查看Realm数据库</span></a></li><li><a href="#使用Realm进行数据库操作"><span>使用Realm进行数据库操作</span></a></li></ol>
+                </div>
+
+            </div>
+            
+
+        </div>
+    </div>
+</div>
+
+
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        </div>
+        <div class="ui vertical footer segment">
+    <div class="ui center aligned container">
+        <div class="ui inverted section divider"></div>
+        &copy; 2017 <a href="/">3water</a>,
+        Powered by <a href="https://github.com/henryhuang/hexo-theme-aloha" target="_blank">Aloha</a> and <a
+                href="http://hexo.io/" target="_blank">Hexo</a>.
+    </div>
+</div>
+
+    </div>
+
+
+
+
+<!-- scripts list from theme config.yml -->
+
+<script src="//cdn.bootcss.com/jquery/3.1.0/jquery.min.js"></script>
+
+<script src="//cdn.bootcss.com/semantic-ui/2.2.4/semantic.min.js"></script>
+
+<script src="//cdn.bootcss.com/algoliasearch/3.18.1/algoliasearch.min.js"></script>
+
+<script src="//cdn.bootcss.com/algoliasearch-helper-js/2.13.0/algoliasearch.helper.min.js"></script>
+
+<script src="/js/semantic-ui-algolia.js"></script>
+
+<script src="/js/aloha-events.js"></script>
+
+
+
+</body>
+</html>

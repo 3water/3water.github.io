@@ -1,0 +1,279 @@
+
+
+<!DOCTYPE html>
+<html lang="null">
+<head prefix="og: http://ogp.me/ns#">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <meta name="description" content="记不住的就不是你的">
+    <title>Android数据库框架GreenDao | 3water</title>
+
+    <!-- Open Graph -->
+    <meta name="description" content="&amp;#x5F15;&amp;#x5165;&amp;#x9879;&amp;#x76EE;
+&amp;#x5F15;&amp;#x5165;&amp;#x63D2;&amp;#x4EF6;
+
+12345678buildscript {    repositories {        mavenCentral()    }    dependencies {        classpath &amp;apos;org.greenrobot:greendao-g">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Android数据库框架GreenDao">
+<meta property="og:url" content="http://yoursite.com/2017/03/07/Android数据库框架GreenDao/index.html">
+<meta property="og:site_name" content="3water">
+<meta property="og:description" content="&amp;#x5F15;&amp;#x5165;&amp;#x9879;&amp;#x76EE;
+&amp;#x5F15;&amp;#x5165;&amp;#x63D2;&amp;#x4EF6;
+
+12345678buildscript {    repositories {        mavenCentral()    }    dependencies {        classpath &amp;apos;org.greenrobot:greendao-g">
+<meta property="og:updated_time" content="2017-03-07T06:54:40.561Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Android数据库框架GreenDao">
+<meta name="twitter:description" content="&amp;#x5F15;&amp;#x5165;&amp;#x9879;&amp;#x76EE;
+&amp;#x5F15;&amp;#x5165;&amp;#x63D2;&amp;#x4EF6;
+
+12345678buildscript {    repositories {        mavenCentral()    }    dependencies {        classpath &amp;apos;org.greenrobot:greendao-g">
+
+    <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Person",
+  "email": "mailto:undefined",
+  "image": "undefined",
+  "name": "3water",
+  "url": "http://yoursite.com"
+}
+</script>
+    <script>
+    var algoliaEnabled = false;
+    
+</script>
+
+    
+
+    
+    
+        <link href="//fonts.useso.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+    
+    
+    
+        <!-- stylesheets list from config.yml -->
+        
+        <link rel="stylesheet" href="/css/aloha.css">
+        
+        <link rel="stylesheet" href="//cdn.bootcss.com/semantic-ui/2.2.4/semantic.min.css">
+        
+        <link rel="stylesheet" href="//cdn.bootcss.com/magnific-popup.js/1.1.0/magnific-popup.min.css">
+        
+    
+
+</head>
+<body id="body" style="margin-bottom: 0;" class="pushable">
+
+    <div class="ui top fixed menu">
+        <a class="item" id="menu-icon"><i class="sidebar icon"></i></a>
+    </div>
+
+    <div id="menu-sidebar" class="ui left vertical sidebar menu">
+
+    <div id="sidebar-top">
+        <div class="content">
+            <h3>3water</h3>
+        </div>
+    </div>
+    <div class="ui container sidebar-card">
+    <div class="ui people shape content">
+        <div class="active side">
+            <div class="ui card">
+                <div class="image">
+                    <img class="ui medium bordered image" src="/images/avatar.jpg">
+                </div>
+                <div class="content">
+                    <a class="header">3water</a>
+                    
+                </div>
+                <div class="extra content">
+                    <div class="ui list">
+                        
+                        
+                    </div>
+
+                </div>
+                <div class="extra content">
+                    <div class="ui list">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+    
+    
+
+    
+
+    
+    <a href="/index.html" class="item" >
+        <i class="home icon"></i>
+        HOME
+    </a>
+
+    
+
+    
+</div>
+
+    <div class="pusher body-content">
+        <div id="content" class="ui main container">
+            <!--<div class="ui one column grid">-->
+                <!--<div class="column">-->
+                    <!--<div class="ui main container">-->
+                        <div id="post-Android数据库框架GreenDao" class="ui main container article-type-post">
+
+    
+
+    <div class="ui divided grid">
+
+        <div class="two column row" id="article-content">
+
+            <div class="thirteen wide computer thirteen wide tablet sixteen wide mobile column">
+                
+
+<h1 class="ui header">
+    
+    Android数据库框架GreenDao
+</h1>
+
+
+
+                <div class="article-inner">
+
+                    <div class="article-entry" itemprop="articleBody">
+                        
+                        <h3 id="&#x5F15;&#x5165;&#x9879;&#x76EE;"><a href="#&#x5F15;&#x5165;&#x9879;&#x76EE;" class="headerlink" title="&#x5F15;&#x5165;&#x9879;&#x76EE;"></a>&#x5F15;&#x5165;&#x9879;&#x76EE;</h3><ul class="ui list">
+<li>&#x5F15;&#x5165;&#x63D2;&#x4EF6;</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">buildscript {</div><div class="line">    repositories {</div><div class="line">        mavenCentral()</div><div class="line">    }</div><div class="line">    dependencies {</div><div class="line">        classpath &apos;org.greenrobot:greendao-gradle-plugin:3.2.1&apos;</div><div class="line">    }</div><div class="line">}</div></pre></td></tr></table></figure>
+<ul class="ui list">
+<li>&#x5F15;&#x5165;&#x4F9D;&#x8D56;&#x7C7B;&#x5E93;<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">apply plugin: &apos;com.android.application&apos;</div><div class="line">apply plugin: &apos;org.greenrobot.greendao&apos;</div><div class="line">dependencies {</div><div class="line">    compile &apos;org.greenrobot:greendao:3.2.0&apos;</div><div class="line">}</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<h3 id="&#x914D;&#x7F6E;"><a href="#&#x914D;&#x7F6E;" class="headerlink" title="&#x914D;&#x7F6E;"></a>&#x914D;&#x7F6E;</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">greendao {</div><div class="line">    schemaVersion 2 //&#x6570;&#x636E;&#x5E93;&#x5F53;&#x524D;&#x7248;&#x672C;</div><div class="line">    daoPackage &apos;src/main/java&apos; //&#x6587;&#x4EF6;&#x751F;&#x6210;&#x5305;&#x540D;</div><div class="line">    targetGenDir &apos;*********&apos; //&#x6587;&#x4EF6;&#x751F;&#x6210;&#x8DEF;&#x5F84;</div><div class="line">}</div></pre></td></tr></table></figure>
+<h3 id="&#x5B9E;&#x4F53;-entity&#x6CE8;&#x89E3;"><a href="#&#x5B9E;&#x4F53;-entity&#x6CE8;&#x89E3;" class="headerlink" title="&#x5B9E;&#x4F53;@entity&#x6CE8;&#x89E3;"></a>&#x5B9E;&#x4F53;@entity&#x6CE8;&#x89E3;</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div></pre></td><td class="code"><pre><div class="line">@Entity(</div><div class="line">        // &#x544A;&#x77E5;GreenDao&#x5F53;&#x524D;&#x5B9E;&#x4F53;&#x5C5E;&#x4E8E;&#x54EA;&#x4E2A;schema(&#x5F53;app&#x4E2D;&#x6709;&#x591A;&#x4E2A;&#x6570;&#x636E;&#x5E93;)</div><div class="line">        schema = &quot;myschema&quot;,</div><div class="line">        // &#x6807;&#x8BB0;&#x4E00;&#x4E2A;&#x5B9E;&#x4F53;&#x5904;&#x4E8E;&#x6D3B;&#x52A8;&#x72B6;&#x6001;&#xFF0C;&#x6D3B;&#x52A8;&#x5B9E;&#x4F53;&#x6709;&#x66F4;&#x65B0;&#x3001;&#x5220;&#x9664;&#x548C;&#x5237;&#x65B0;&#x65B9;&#x6CD5;</div><div class="line">        active = true,</div><div class="line">        //&#x8868;&#x540D;</div><div class="line">        nameInDb = &quot;AWESOME_USERS&quot;,</div><div class="line">        // &#x5B9A;&#x4E49;&#x7D22;&#x5F15;&#xFF0C;&#x53EF;&#x4EE5;&#x8DE8;&#x8D8A;&#x591A;&#x4E2A;&#x5217;</div><div class="line">        indexes = {</div><div class="line">                @Index(value = &quot;name DESC&quot;, unique = true)</div><div class="line">        },</div><div class="line">        // &#x662F;&#x5426;&#x521B;&#x5EFA;&#x6570;&#x636E;&#x5E93;&#x8868; (&#x9ED8;&#x8BA4;true).</div><div class="line">        createInDb = false,</div><div class="line">        // &#x662F;&#x5426;&#x751F;&#x6210;&#x6784;&#x9020;&#x5668;</div><div class="line">        generateConstructors = true,</div><div class="line">        // &#x662F;&#x5426;&#x751F;&#x6210;getters&#x548C;setters&#x65B9;&#x6CD5; </div><div class="line">        generateGettersSetters = true</div><div class="line">)</div><div class="line">public class User {</div><div class="line">  ...</div><div class="line">}</div></pre></td></tr></table></figure>
+<h3 id="&#x5C5E;&#x6027;&#x6CE8;&#x89E3;"><a href="#&#x5C5E;&#x6027;&#x6CE8;&#x89E3;" class="headerlink" title="&#x5C5E;&#x6027;&#x6CE8;&#x89E3;"></a>&#x5C5E;&#x6027;&#x6CE8;&#x89E3;</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">@Entity</div><div class="line">public class User {</div><div class="line">    @Id(autoincrement = true)</div><div class="line">    private Long id;//&#x4E3B;&#x952E; Long&#x578B;&#xFF0C;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;@Id(autoincrement = true)&#x8BBE;&#x7F6E;&#x81EA;&#x589E;&#x957F;</div><div class="line">    @Index(unique = true)</div><div class="line">    private String key;//&#x4F7F;&#x7528;@Index&#x4F5C;&#x4E3A;&#x4E00;&#x4E2A;&#x5C5E;&#x6027;&#x6765;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x7D22;&#x5F15;&#xFF0C;&#x901A;&#x8FC7;name&#x8BBE;&#x7F6E;&#x7D22;&#x5F15;&#x522B;&#x540D;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;unique&#x7ED9;&#x7D22;&#x5F15;&#x6DFB;&#x52A0;&#x7EA6;&#x675F;</div><div class="line">    @Property(nameInDb = &quot;USERNAME&quot;)</div><div class="line">    private String name;//&#x8BBE;&#x7F6E;&#x4E00;&#x4E2A;&#x975E;&#x9ED8;&#x8BA4;&#x5173;&#x7CFB;&#x6620;&#x5C04;&#x6240;&#x5BF9;&#x5E94;&#x7684;&#x5217;&#x540D;&#xFF0C;&#x9ED8;&#x8BA4;&#x662F;&#x7684;&#x4F7F;&#x7528;&#x5B57;&#x6BB5;&#x540D; &#x4E3E;&#x4F8B;&#xFF1A;@Property (nameInDb=&quot;name&quot;)</div><div class="line">    @NotNull</div><div class="line">    private int repos;//&#x8BBE;&#x7F6E;&#x6570;&#x636E;&#x5E93;&#x8868;&#x5F53;&#x524D;&#x5217;&#x4E0D;&#x80FD;&#x4E3A;&#x7A7A;</div><div class="line">    @Transient</div><div class="line">    private int tempUsageCount;//&#x6DFB;&#x52A0;&#x6B21;&#x6807;&#x8BB0;&#x4E4B;&#x540E;&#x4E0D;&#x4F1A;&#x751F;&#x6210;&#x6570;&#x636E;&#x5E93;&#x8868;&#x7684;&#x5217;</div><div class="line">}</div></pre></td></tr></table></figure>
+<h3 id="&#x521D;&#x59CB;&#x5316;"><a href="#&#x521D;&#x59CB;&#x5316;" class="headerlink" title="&#x521D;&#x59CB;&#x5316;"></a>&#x521D;&#x59CB;&#x5316;</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">helper = new DaoMaster.DevOpenHelper(this, &quot;notes-db&quot;, null);</div><div class="line">db = helper.getWritableDatabase();</div><div class="line">daoMaster = new DaoMaster(db);</div><div class="line">daoSession = daoMaster.newSession();</div><div class="line">noteDao = daoSession.getNoteDao();</div></pre></td></tr></table></figure>
+<h3 id="&#x67E5;&#x8BE2;"><a href="#&#x67E5;&#x8BE2;" class="headerlink" title="&#x67E5;&#x8BE2;"></a>&#x67E5;&#x8BE2;</h3><ul class="ui list">
+<li><p>&#x67E5;&#x8BE2;&#x5217;&#x8868;</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">QueryBuilder&lt;User&gt; qb = userDao.queryBuilder();</div><div class="line">List&lt;User&gt; list = qb.list();</div></pre></td></tr></table></figure>
+</li>
+<li><p>&#x6761;&#x4EF6;&#x67E5;&#x8BE2;</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">QueryBuilder&lt;User&gt; qb = userDao.queryBuilder();</div><div class="line">qb.where(UserDao.Properties.Age.gt(age)).orderAsc(UserDao.Properties.Age);</div><div class="line">List&lt;User&gt; list = qb.list();</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<h3 id="&#x589E;&#x5220;&#x6539;"><a href="#&#x589E;&#x5220;&#x6539;" class="headerlink" title="&#x589E;&#x5220;&#x6539;"></a>&#x589E;&#x5220;&#x6539;</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">userDao.insert(user);</div><div class="line">userDao.insertInTx(users);//&#x63D2;&#x5165;&#x591A;&#x6761;</div><div class="line">userDao.delete(user);</div><div class="line">userDao.update(user);</div></pre></td></tr></table></figure>
+
+                        
+                    </div>
+
+                    
+                    
+                    
+
+                    <div class="description post-description">
+    <span class="post-description-item">
+        <time datetime="2017-03-07T06:53:35.611Z" itemprop="datePublished">2017-03-07</time>
+
+    </span>
+    <span class="post-description-item">
+        
+    </span>
+</div>
+
+                </div>
+                
+                <div id="pagination" class="nav-web ui text container pagination">
+
+    <div class="ui stackable two column divided grid container">
+        <div class="row">
+            <div class="column nav-left">
+                
+
+                <a href="/2017/03/07/Realm Android平台简单使用/" class="ui tiny button">
+
+                    <i class="angle left icon"></i>
+                    
+                    Realm Android平台简单使用
+                    
+
+                </a>
+
+                
+            </div>
+            <div class="column nav-right">
+                
+
+                <a href="/2017/03/07/hello-world/" class="ui tiny button">
+                    
+                    Hello World
+                    
+                    <i class="angle right icon"></i></a>
+                
+            </div>
+        </div>
+    </div>
+
+</div>
+                
+            </div>
+
+            
+            <div class="three wide computer three wide tablet column">
+
+                <div class="ui sticky article-toc" id="article-toc">
+                    <!-- toc -->
+                    <ol class="ui ordered list"><li><a href="#引入项目"><span>引入项目</span></a></li><li><a href="#配置"><span>配置</span></a></li><li><a href="#实体-entity注解"><span>实体@entity注解</span></a></li><li><a href="#属性注解"><span>属性注解</span></a></li><li><a href="#初始化"><span>初始化</span></a></li><li><a href="#查询"><span>查询</span></a></li><li><a href="#增删改"><span>增删改</span></a></li></ol>
+                </div>
+
+            </div>
+            
+
+        </div>
+    </div>
+</div>
+
+
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        </div>
+        <div class="ui vertical footer segment">
+    <div class="ui center aligned container">
+        <div class="ui inverted section divider"></div>
+        &copy; 2017 <a href="/">3water</a>,
+        Powered by <a href="https://github.com/henryhuang/hexo-theme-aloha" target="_blank">Aloha</a> and <a
+                href="http://hexo.io/" target="_blank">Hexo</a>.
+    </div>
+</div>
+
+    </div>
+
+
+
+
+<!-- scripts list from theme config.yml -->
+
+<script src="//cdn.bootcss.com/jquery/3.1.0/jquery.min.js"></script>
+
+<script src="//cdn.bootcss.com/semantic-ui/2.2.4/semantic.min.js"></script>
+
+<script src="//cdn.bootcss.com/algoliasearch/3.18.1/algoliasearch.min.js"></script>
+
+<script src="//cdn.bootcss.com/algoliasearch-helper-js/2.13.0/algoliasearch.helper.min.js"></script>
+
+<script src="/js/semantic-ui-algolia.js"></script>
+
+<script src="/js/aloha-events.js"></script>
+
+
+
+</body>
+</html>
